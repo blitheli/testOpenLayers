@@ -5,11 +5,21 @@ import XYZ from 'ol/source/XYZ';
 import TileDebug from 'ol/source/TileDebug';
 
 /**
-    使用openlayers加载 阿里云服务器上的瓦片服务发布的 月球全球高程彩图
+    使用openlayers加载 MoonTrek发布的 月球南极高分影像        
 
-    最大缩放级别(z=6)
+    <TopLeftCorner>-1095930 1095930
 
-    20230610
+    Layer ID : LRO_NAC_AvgMosaic_SPole855_1mp
+    bbox : -136526,-136525,136525,136526
+    WMTS Endpoint : 
+    Abstract : 
+    Projection :
+      urn:ogc:def:crs:IAU2000::30120
+
+    
+    后续想办法直接使用m作为单位
+
+    20230611
  */
 
 let src = new XYZ({
@@ -17,8 +27,7 @@ let src = new XYZ({
   maxResolution: 180 / 256,
   wrapX: false,   //  关闭水平重复
   projection: "EPSG:4326",
-  //  Moon: 全球高程彩图
-  url: 'http://139.224.107.180:9080/type=1000000011&x={x}&y={y}&z={z}'
+  url: 'https://trek.nasa.gov/tiles/Moon/SP/LRO_NAC_AvgMosaic_SPole855_1mp/1.0.0//default/default028mm/{z}/{y}/{x}.png'
 });
 
 //  用于调试的瓦片图层
@@ -31,8 +40,8 @@ const map = new Map({
   target: 'map',
   layers: [
 
-    new TileLayer({
-      source: src      
+    new TileLayer({      
+      source: src
     }),
 
     //  用于调试的瓦片图层
@@ -42,10 +51,10 @@ const map = new Map({
   ],
 
   view: new View({
-    center: [0, 0],
+    center: [-90, 0],     //  显示原点设置为南极
     zoom: 2,
     minZoom: 2,
-    maxZoom: 7,   //  限制最大缩放级别(z=6)
+    maxZoom: 12,  // 限制最大缩放级别(z=11)
     projection: "EPSG:4326"
   })
 });
