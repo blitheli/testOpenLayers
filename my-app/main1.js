@@ -7,6 +7,13 @@ import TileDebug from 'ol/source/TileDebug';
 /**
     使用openlayers加载 MoonTrek发布的 月球南极高分影像        
 
+    月球南极WMTS与EPSG4326的对应关系：
+        月球投影:             EPSG 4326
+            x:  0         -   lon: -90°
+            y:  0         -   lat: 0°
+            x:  -1095930  -   lon: -180°
+            y:  1095930   -   lat: 90°
+
     <TopLeftCorner>-1095930 1095930
 
     Layer ID : LRO_NAC_AvgMosaic_SPole855_1mp
@@ -21,6 +28,13 @@ import TileDebug from 'ol/source/TileDebug';
 
     20230611
  */
+
+// BBOX等效的纬度范围(deg)
+let deltaLat = 136526 / 1095930.0 * 90.0;
+let wetLon = -90 - deltaLat;
+let eastLon = -90 + deltaLat;
+let southLat = -deltaLat;
+let northLat = deltaLat;
 
 let src = new XYZ({
   //tileSize: 512,
@@ -40,8 +54,9 @@ const map = new Map({
   target: 'map',
   layers: [
 
-    new TileLayer({      
-      source: src
+    new TileLayer({
+      source: src,
+      extent: [wetLon, southLat, eastLon, northLat] //  //  设置BBOX边界，不用请求边界之外的数据
     }),
 
     //  用于调试的瓦片图层

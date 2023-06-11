@@ -7,6 +7,8 @@ import TileDebug from 'ol/source/TileDebug';
 /**
     使用openlayers加载 MoonTrek发布的 月球 局部高分影像     
 
+    局部影像，设置了extent边界，经纬度范围！
+
     Layer ID : Apollo15_PanCam_Slope_25N311E_5mp
     bbox : -49.771146,23.4260907,-48.0356413,26.0942471
     WMTS Endpoint : https://trek.nasa.gov/tiles/Moon/EQ/Apollo15_PanCam_Slope_25N311E_5mp
@@ -47,7 +49,8 @@ const map = new Map({
   layers: [
 
     new TileLayer({
-      source: src
+      source: src,
+      extent:[-49.771146,23.4260907,-48.0356413,26.0942471],    //  设置BBOX边界，不用请求边界之外的数据
     }),
 
     //  用于调试的瓦片图层
@@ -58,8 +61,7 @@ const map = new Map({
 
   view: new View({
     center: [-49, 23],  // 初始化后，显示原点设置为此点(使用经纬度)
-    zoom: 2,
-    extent:[-49.771146,23.4260907,-48.0356413,26.0942471],
+    zoom: 2,    
     minZoom: 7,   // 最小缩放级别(z=6)
     maxZoom: 12,  // 最大缩放级别(z=11)
     projection: "EPSG:4326"
