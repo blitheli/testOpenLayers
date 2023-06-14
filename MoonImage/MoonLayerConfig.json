@@ -4,7 +4,7 @@
     "Author": "liyunfei",
     "Layers": [
         {
-            "MoonType": "SP",
+            "ProjectionType": "SP",
             "Title": "月球南极NAC相机高分影像(85.5°以上,分辨率约1米)",
             "LayerID": "Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp",
             "Icon": "{MoonImage}\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\LRO_NAC_AvgMosaic_SPole855_1mp-120.png",
@@ -21,7 +21,7 @@
             "MetaData": "{MoonImage}\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\metadata.html"
         },
         {
-            "MoonType": "SP",
+            "ProjectionType": "SP",
             "Title": "月球南极WAC相机影像(60°以上,分辨率约100米)",
             "LayerID": "Moon_sp_LRO_WAC_SPole60_100mp",
             "Icon": "{MoonImage}\\Moon_sp_LRO_WAC_SPole60_100mp\\LRO_WAC_Mosaic_SPole60_100mp-120.png",
@@ -38,7 +38,7 @@
             "MetaData": "{MoonImage}\\Moon_sp_LRO_WAC_SPole60_100mp\\metadata.html"
         },
         {
-            "MoonType": "EQ",
+            "ProjectionType": "EQ",
             "Title": "Apollo 15 坡度彩图",
             "LayerID": "Moon_eq_Apollo15_PanCam_Slope_25N311E_5mp",
             "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_25N311E_5mp\\Apollo15_PanCam_Slope_25N311E_5mp-120.png",
@@ -55,7 +55,7 @@
             "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_25N311E_5mp\\metadata.html"
         },
         {
-            "MoonType": "EQ",
+            "ProjectionType": "EQ",
             "Title": "月球全月地形图(LRO-LOLA)",
             "LayerID": "Moon_eq_LRO_LOLA_ClrShade_Global_256ppd_v06",
             "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrShade_Global_256ppd_v06\\LRO_LOLA_ClrShade_Global_256ppd_v06-120.png",
