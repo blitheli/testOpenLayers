@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <title>Moon Image Layer</title>
-    <script src="../../assets/cdn.jsdelivr.net_npm_ol@v7.4.0_dist_ol.js"></script>
-    <link rel="stylesheet" href="../../assets/cdn.jsdelivr.net_npm_ol@v7.4.0_ol.css" />
+    <script src="../assets/cdn.jsdelivr.net_npm_ol@v7.4.0_dist_ol.js"></script>
+    <link rel="stylesheet" href="../assets/cdn.jsdelivr.net_npm_ol@v7.4.0_ol.css" />
     <style>
       html,
       body {
@@ -28,13 +28,12 @@
 
         原点在中心0,0处
 
-        目前BBOX对应的经纬度太大！
-
         20230612  liyunfei
       */
+
       // BBOX等效的纬度范围(deg)
-      let deltaLat = (931100 / 1095930.0) * 45.0;
-      let wetLon = - deltaLat;
+      let deltaLat = (136526 / 1095930.0) * 45.0;
+      let wetLon = -deltaLat;
       let eastLon = deltaLat;
       let southLat = -deltaLat;
       let northLat = deltaLat;
@@ -45,7 +44,7 @@
         maxResolution: 180 / 256,
         wrapX: false, //  关闭水平重复
         projection: 'EPSG:4326',
-        url: 'http://139.224.107.180:9080/type=1000000046&x={x}&y={y}&z={z}'
+        url: 'http://139.224.107.180:9080/type=1000010000&x={x}&y={y}&z={z}'
       });
 
       //  用于调试的瓦片图层
@@ -70,9 +69,9 @@
 
         view: new ol.View({
           center: [0, 0], //  初始化时中心点
-          zoom: 2,
-          minZoom: 2,
-          maxZoom: 9, //  限制最大缩放级别(z=8)
+          zoom: 6,
+          minZoom: 6,
+          maxZoom: 13, //  限制最大缩放级别(z=11)
           projection: 'EPSG:4326'
         })
       });

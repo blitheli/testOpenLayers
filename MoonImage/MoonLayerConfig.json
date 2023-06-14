@@ -7,7 +7,7 @@
             "MoonType": "SP",
             "Title": "月球南极NAC相机高分影像(85.5°以上,分辨率约1米)",
             "LayerID": "Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp",
-            "Icon": "{MoonImage}\\SP\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\LRO_NAC_AvgMosaic_SPole855_1mp-120.png",
+            "Icon": "{MoonImage}\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\LRO_NAC_AvgMosaic_SPole855_1mp-120.png",
             "BBOX": [
                 -136526,
                 -136525,
@@ -16,15 +16,15 @@
             ],
             "Abstract": "月球南极NAC相机高分影像(85.5°以上,分辨率约1米)",
             "Projection": "urn:ogc:def:crs:IAU2000::30120",
-            "Preview": "{MoonImage}\\SP\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\index.html",
-            "WMTS_Capabiliites": "{MoonImage}\\SP\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\WMTSCapabiliites.xml",
-            "MetaData": "{MoonImage}\\SP\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\metadata.xml"
+            "Preview": "{MoonImage}\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_sp_LRO_NAC_AvgMosaic_SPole855_1mp\\metadata.html"
         },
         {
             "MoonType": "SP",
             "Title": "月球南极WAC相机影像(60°以上,分辨率约100米)",
             "LayerID": "Moon_sp_LRO_WAC_SPole60_100mp",
-            "Icon": "{MoonImage}\\SP\\Moon_sp_LRO_WAC_SPole60_100mp\\LRO_WAC_Mosaic_SPole60_100mp-120.png",
+            "Icon": "{MoonImage}\\Moon_sp_LRO_WAC_SPole60_100mp\\LRO_WAC_Mosaic_SPole60_100mp-120.png",
             "BBOX": [
                 -931100,
                 -931100,
@@ -33,15 +33,15 @@
             ],
             "Abstract": "月球南极WAC相机影像(60°以上,分辨率约100米)",
             "Projection": "urn:ogc:def:crs:IAU2000::30120",
-            "Preview": "{MoonImage}\\SP\\Moon_sp_LRO_WAC_SPole60_100mp\\index.html",
-            "WMTS_Capabiliites": "{MoonImage}\\SP\\Moon_sp_LRO_WAC_SPole60_100mp\\WMTSCapabiliites.xml",
-            "MetaData": "{MoonImage}\\SP\\Moon_sp_LRO_WAC_SPole60_100mp\\metadata.xml"
+            "Preview": "{MoonImage}\\Moon_sp_LRO_WAC_SPole60_100mp\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\SP\\Moon_sp_LRO_WAC_SPole60_100mp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_sp_LRO_WAC_SPole60_100mp\\metadata.html"
         },
         {
             "MoonType": "EQ",
             "Title": "Apollo 15 坡度彩图",
             "LayerID": "Moon_eq_Apollo15_PanCam_Slope_25N311E_5mp",
-            "Icon": "{MoonImage}\\EQ\\Moon_eq_Apollo15_PanCam_Slope_25N311E_5mp\\Apollo15_PanCam_Slope_25N311E_5mp-120.png",
+            "Icon": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_25N311E_5mp\\Apollo15_PanCam_Slope_25N311E_5mp-120.png",
             "BBOX": [
                 -49.771146,
                 23.4260907,
@@ -50,15 +50,15 @@
             ],
             "Abstract": "Apollo 15 坡度彩图",
             "Projection": "urn:ogc:def:crs:IAU2000::30100",
-            "Preview": "{MoonImage}\\EQ\\Moon_eq_Apollo15_PanCam_Slope_25N311E_5mp\\index.html",
-            "WMTS_Capabiliites": "{MoonImage}\\EQ\\Moon_eq_Apollo15_PanCam_Slope_25N311E_5mp\\WMTSCapabiliites.xml",
-            "MetaData": "{MoonImage}\\EQ\\Moon_eq_Apollo15_PanCam_Slope_25N311E_5mp\\metadata.xml"
+            "Preview": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_25N311E_5mp\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_25N311E_5mp\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_Apollo15_PanCam_Slope_25N311E_5mp\\metadata.html"
         },
         {
             "MoonType": "EQ",
             "Title": "月球全月地形图(LRO-LOLA)",
             "LayerID": "Moon_eq_LRO_LOLA_ClrShade_Global_256ppd_v06",
-            "Icon": "{MoonImage}\\EQ\\Moon_eq_LRO_LOLA_ClrShade_Global_256ppd_v06\\LRO_LOLA_ClrShade_Global_256ppd_v06-120.png",
+            "Icon": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrShade_Global_256ppd_v06\\LRO_LOLA_ClrShade_Global_256ppd_v06-120.png",
             "BBOX": [
                 -180,
                 -90,
@@ -67,9 +67,9 @@
             ],
             "Abstract": "月球全月地形图(LRO-LOLA)",
             "Projection": "urn:ogc:def:crs:IAU2000::30100",
-            "Preview": "{MoonImage}\\EQ\\Moon_eq_LRO_LOLA_ClrShade_Global_256ppd_v06\\index.html",
-            "WMTS_Capabiliites": "{MoonImage}\\EQ\\Moon_eq_LRO_LOLA_ClrShade_Global_256ppd_v06\\WMTSCapabiliites.xml",
-            "MetaData": "{MoonImage}\\EQ\\Moon_eq_LRO_LOLA_ClrShade_Global_256ppd_v06\\metadata.xml"
+            "Preview": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrShade_Global_256ppd_v06\\index.html",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrShade_Global_256ppd_v06\\WMTSCapabilities.xml",
+            "MetaData": "{MoonImage}\\Moon_eqc_LRO_LOLA_ClrShade_Global_256ppd_v06\\metadata.html"
         }
     ]
 }
