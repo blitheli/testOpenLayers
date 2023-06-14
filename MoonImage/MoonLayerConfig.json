@@ -34,7 +34,7 @@
             "Abstract": "月球南极WAC相机影像(60°以上,分辨率约100米)",
             "Projection": "urn:ogc:def:crs:IAU2000::30120",
             "Preview": "{MoonImage}\\Moon_sp_LRO_WAC_SPole60_100mp\\index.html",
-            "WMTS_Capabiliites": "{MoonImage}\\SP\\Moon_sp_LRO_WAC_SPole60_100mp\\WMTSCapabilities.xml",
+            "WMTS_Capabiliites": "{MoonImage}\\Moon_sp_LRO_WAC_SPole60_100mp\\WMTSCapabilities.xml",
             "MetaData": "{MoonImage}\\Moon_sp_LRO_WAC_SPole60_100mp\\metadata.html"
         },
         {
