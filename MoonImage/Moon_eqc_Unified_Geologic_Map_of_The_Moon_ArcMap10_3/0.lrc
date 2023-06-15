@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>Unified_Geologic_Map_of_The_Moon_ArcMap10_3</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>512</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z-1, y, x</UrlParamOrder>    
+    <NetPath>http://139.224.107.180/resources/tiles/images/eqc/Unified_Geologic_Map_of_The_Moon_ArcMap10_3/%d/%d/%d.png</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>-180</West>
+        <East>180</East>
+        <South>-90</South>
+        <North>90</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>7</LevelEnd>
+    </Range>
+</DataDefine>

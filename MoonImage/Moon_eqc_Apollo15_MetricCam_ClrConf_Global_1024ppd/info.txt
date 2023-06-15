@@ -1,0 +1,11 @@
+	
+Apollo 15 Metric Cam DEM, Colorized Confidence
+Layer ID : Apollo15_MetricCam_ClrConf_Global_1024ppd
+bbox : -180,-90,180,90
+WMTS Endpoint : https://trek.nasa.gov/tiles/Moon/EQ/Apollo15_MetricCam_ClrConf_Global_1024ppd
+Abstract : The Apollo 15 DEM colorized confidence image is generated from the Apollo 15 DEM confidence data. In the confidence data, the values are derived from the precision values. For the colorized confidence, the value range from 10 to 14 was used, ranging from poor confidence (10) to very good confidence (14). This range was mapped to a color map varying from yellow to green. All other confidence values were mapped to fully transparent pixels.
+Projection :
+
+GEOGCS["GCS_Moon_2000",
+	DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]

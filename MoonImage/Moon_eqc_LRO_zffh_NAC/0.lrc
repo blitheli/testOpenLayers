@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>
+    <Name>LRO_zffh_NAC</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>    
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>    
+    <UrlParamOrder>z,y,x</UrlParamOrder>
+    <NetPath>http://139.224.107.180/resources/tiles/images/eqc/zffh_NAC/%d/%d/%d.png</NetPath>
+    <FileExt></FileExt>
+    <Range>    
+        <West>48.59</West>
+        <East>48.88</East>
+        <South>-1.14</South>
+        <North>-0.66</North>
+        <LevelBegin>13</LevelBegin>
+        <LevelEnd>17</LevelEnd>
+    </Range>
+</DataDefine>

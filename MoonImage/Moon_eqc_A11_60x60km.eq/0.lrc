@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>    
+    <Name>A11_60x60km.eq</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <UrlParamOrder>z-1, y, x</UrlParamOrder>
+    <NetPath>https://trek.nasa.gov/tiles/Moon/EQ/A11_60x60km.eq/1.0.0/default/default028mm/%d/%d/%d.png</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>22.4806483</West>
+        <East>24.459338</East>
+        <South>-0.3193414</South>
+        <North>1.6593483</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>16</LevelEnd>
+    </Range>
+</DataDefine>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>
+    <Name>CE2_GRAS_DOM_07m</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>256</SampleSize>    
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>    
+    <UrlParamOrder>z,y,x</UrlParamOrder>
+    <NetPath>http://139.224.107.180/resources/tiles/images/eqc/CE2_GRAS_DOM_07m/%d/%d/%d.jpg</NetPath>
+    <FileExt></FileExt>
+    <Range>
+        <West>-180</West>
+        <East>180</East>
+        <South>-90</South>
+        <North>90</North>
+        <LevelBegin>1</LevelBegin>
+        <LevelEnd>14</LevelEnd>
+    </Range>
+</DataDefine>

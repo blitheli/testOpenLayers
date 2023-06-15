@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB18030"?>
+<DataDefine>
+    <Version>0</Version>
+    <Name>craters5_20km</Name>
+    <GeoGridType>TianDiTuLatLon</GeoGridType>
+    <SampleSize>512</SampleSize>
+    <FileExt>png</FileExt>
+    <DataVersion></DataVersion>
+    <DataType>urlformat</DataType>
+    <TileRowDir>NorthToSouth</TileRowDir>
+    <LocalPath></LocalPath>
+    <UrlParamOrder>Z,Y,X</UrlParamOrder>
+    <NetPath>http://139.224.107.180/resources/tiles/images/eqc/craters5_20km/%d/%d/%d.png</NetPath>
+    <Range>
+        <West>-180</West>
+        <East>180</East>
+        <South>-90</South>
+        <North>90</North>
+        <LevelBegin>3</LevelBegin>
+        <LevelEnd>8</LevelEnd>
+    </Range>
+</DataDefine>
