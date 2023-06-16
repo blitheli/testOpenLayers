@@ -1,0 +1,10 @@
+	
+Clementine UVVIS FeO Weight Percent
+Layer ID : Clem_UVVIS_FeO_Clr_Global_152ppd
+bbox : -180,-90,179.997,90
+WMTS Endpoint : https://trek.nasa.gov/tiles/Moon/EQ/Clem_UVVIS_FeO_Clr_Global_152ppd
+Abstract : Clementine UVVIS derived mineral and optical maturity maps. These datasets were generated from the UVVIS mosaics warped to the ULCN2005 control network. For more information on how the data set was derived, please see: Lucey, P.G., Blewett, D.T., Taylor, G.J., Hawke, B.R., 2000. Imaging of lunar surface maturity. J. Geophys. Res. 105, 20377–20386. Lucey, P. G., G. J. Taylor, and E. Malaret , 1995, Abundance and distribution of iron on the Moon. Science, vol. 268, p. 1150-1153. Lucey, P. G., D. T. Blewett, and B. R. Hawke, 1997, Mapping the FeO and TiO2 content of the lunar surface with multispectral imagery. Journal of Geophysical Research, in press. Updated reference details: published in 1998 J. Geophys. Res., v. 103, no. E2, p. 3679
+克莱门汀UVVIS衍生的矿物和光学成熟度图。这些数据集是从翘曲到ULCN2005控制网络的UVVIS马赛克生成的。有关数据集如何推导的更多信息，请参阅：Lucey，P.G.，Blewett，D.T.，Taylor，G.J.，Hawke，B.R.，2000年。月球表面成熟度成像。J. 地球物理学家。第105号决议，第20377–20386号决议。Lucey， P. G.， G. J. Taylor， and E. Malaret ， 1995， 月球上铁的丰度和分布。科学，第268卷，第1150-1153页。Lucey，P.G.，D.T.Blewett和B.R.Hawke，1997年，用多光谱图像绘制月球表面的FeO和TiO2含量。地球物理研究杂志，正在出版。更新的参考资料：发表于1998年J. Geophys。第103卷，E2号，第3679页
+Projection :
+
+urn:ogc:def:crs:EPSG::104903
