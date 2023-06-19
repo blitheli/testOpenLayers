@@ -1,0 +1,8 @@
+LRO Narrow Angle Camera, Apollo 11 Landing Site
+Layer ID : LRO_NAC_Apollo11_Mosaic_p
+bbox : 23.4484977,0.1464484,23.5396839,1.1149051
+WMTS Endpoint : https://trek.nasa.gov/tiles/Moon/EQ/LRO_NAC_Apollo11_Mosaic_p
+Abstract : This is the site where American astronauts Neil Armstrong and Edwin “Buzz” Aldrin made the first human landing on the Moon on July 20, 1969. Armstrong and Aldrin landed here aboard the lunar module Eagle, while Michael Collins remained in orbit around the Moon in the command module Columbia. Armstrong and Aldrin conducted one EVA on the lunar surface lasting 2 hours, 31 minutes 40 seconds, remaining within 60 meters of the lunar module. They collected 21.55 kg of lunar sample material for return to the Earth. In this LRO NAC view of the landing site, the descent stage of the Eagle is the largest man-made object visible. The dark tracks of the astronauts’ footprints extend out from it clustered primarily in 3 directions. To the northwest, the tracks extend to the location where the astronauts set up a TV camera. To the south, tracks extend to where a Lunar Ranging Retroreflector and the Passive Seismic Experiment Package were deployed. To the east, the tracks extend to the rim of Little West Crater. The landing site, located at 0.67416 N, 23.47314 E, is in the southwest part of Mare Tranquilitatis, an area characterized by extensive deposits of mare basalt.
+Projection :
+
+urn:ogc:def:crs:EPSG::104903
