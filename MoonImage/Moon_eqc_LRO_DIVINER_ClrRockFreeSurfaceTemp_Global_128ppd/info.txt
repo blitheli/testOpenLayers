@@ -1,0 +1,12 @@
+	
+LRO DLRE Surface Temperature Mosaic 128ppd, Colorized
+Layer ID : LRO_DIVINER_ClrRockFreeSurfaceTemp_Global_128ppd
+bbox : -180,-70,180,70
+WMTS Endpoint : https://trek.nasa.gov/tiles/Moon/EQ/LRO_DIVINER_ClrRockFreeSurfaceTemp_Global_128ppd
+Abstract : Each sample represents the rock-free regolith surface temperature as estimated using the technique described in Bandfield et al. (2011). Data is derived from Diviner data collected from July 5, 2009 through September 2, 2012. Data were restricted to local times of 1930 to 0530 with the solar incidence angles greater than 90 degrees, latitudes between 60N and 60S, emission angles less than 15 degrees, brightness temperatures less than 200K. Several data quality constraints were used as well (quality flag for calibration, 0; quality flag for miscellaneous, 0; noise quality flag, 0 to 1). Gridded level 2 data from diviner spectral channels 6, 7, and 8 binned at 128 pixels per degree. Because of the groundtrack walk and local time drift of Lunar Reconnaissance Orbiter observations, most surfaces are covered by only a single observation. In some cases, surfaces are covered by multiple observations acquired ~6 or 12 months apart.
+每个样品代表使用Bandfield等人（2011）中描述的技术估计的无岩石风化层表面温度。数据来自2009年7月5日至2012年9月2日收集的Diviner数据。数据仅限于1930年至0530年的当地时间，太阳入射角大于90度，纬度在60N和60S之间，发射角小于15度，亮度温度小于200K。还使用了几个数据质量约束（用于校准的质量标志，0;用于杂项的质量标志，0;噪声质量标志，0 到 1）。来自占卜师光谱通道 6、7 和 8 的网格化 2 级数据以每度 128 像素分箱。由于月球勘测轨道飞行器观测的地面轨道行走和当地时间漂移，大多数表面仅被单个观测覆盖。在某些情况下，表面被相隔~6或12个月的多个观测值覆盖。
+Projection :
+
+GEOGCS["GCS_Moon_2000",
+	DATUM["Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],
+	PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433]]
